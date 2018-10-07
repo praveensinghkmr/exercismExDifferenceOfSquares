@@ -10,13 +10,13 @@ public class DifferenceOfSquaresTest
         Assert.Equal(1, DifferenceOfSquares.CalculateSquareOfSum(1));
     }
 
-    [Fact(Skip = "Remove to run test")]
+    [Fact]
     public void Square_of_sum_5()
     {
         Assert.Equal(225, DifferenceOfSquares.CalculateSquareOfSum(5));
     }
 
-    [Fact(Skip = "Remove to run test")]
+    [Fact]
     public void Square_of_sum_100()
     {
         Assert.Equal(25502500, DifferenceOfSquares.CalculateSquareOfSum(100));
