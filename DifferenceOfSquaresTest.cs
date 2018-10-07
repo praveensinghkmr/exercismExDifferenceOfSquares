@@ -22,19 +22,19 @@ public class DifferenceOfSquaresTest
         Assert.Equal(25502500, DifferenceOfSquares.CalculateSquareOfSum(100));
     }
 
-    [Fact(Skip = "Remove to run test")]
+    [Fact]
     public void Sum_of_squares_1()
     {
         Assert.Equal(1, DifferenceOfSquares.CalculateSumOfSquares(1));
     }
 
-    [Fact(Skip = "Remove to run test")]
+    [Fact]
     public void Sum_of_squares_5()
     {
         Assert.Equal(55, DifferenceOfSquares.CalculateSumOfSquares(5));
     }
 
-    [Fact(Skip = "Remove to run test")]
+    [Fact]
     public void Sum_of_squares_100()
     {
         Assert.Equal(338350, DifferenceOfSquares.CalculateSumOfSquares(100));
